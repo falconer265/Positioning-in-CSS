@@ -10,6 +10,8 @@ div {
     position: relative;
     background-color: green;
     left: 100px;
+    opacity: 0%;
+
 }
 .sticky{
     position: sticky;
@@ -17,14 +19,18 @@ div {
     color: white;
     left: 20px;
     top: 5px;
+    opacity: 50%;
+
 }
 .absolute{
     position: absolute;
     background-color: yellow;
-    left: 50px;
+    left: 50px;    
+    opacity: 0.6;
 }
 .fixed{
     position: fixed;
     background-color: blueviolet;
     right: 50px;
+    opacity: 20%;
 }
